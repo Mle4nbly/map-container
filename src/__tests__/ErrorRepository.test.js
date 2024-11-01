@@ -7,5 +7,5 @@ test('Test translate(code)', () => {
 });
 
 test('Test translate(code) with error', () => {
-    expect(() => { errorTranslator.translate('555') }).toThrow(Error);
+    expect(() => { errorTranslator.translate('555'); }).toThrow(Error);
 });
